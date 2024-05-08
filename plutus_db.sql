@@ -115,4 +115,3 @@ CREATE TABLE User_Notifications (
     FOREIGN KEY (user_id) REFERENCES Users(user_id),
     FOREIGN KEY (notification_id) REFERENCES Notifications(notification_id)
 );
-
