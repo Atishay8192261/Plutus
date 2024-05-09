@@ -7,7 +7,7 @@ CREATE TABLE Users (
     last_name VARCHAR(255) NOT NULL,
     date_of_birth DATE NOT NULL,
     email VARCHAR(255) UNIQUE NOT NULL,
-    mobile INT NOT NULL
+    mobile BIGINT NOT NULL
 );
 
 CREATE TABLE Banks (

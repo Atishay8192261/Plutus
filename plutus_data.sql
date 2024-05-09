@@ -1,7 +1,9 @@
 Use plutus;
+
+
 INSERT INTO Users (user_id, first_name, last_name, date_of_birth, email, mobile) VALUES
-(11, 'John', 'Doe', '1980-03-15', 'johndoe@gmail.com', 123456789),
-(12, 'Jane', 'Smith', '1992-07-24', 'janesmith@gmail.com', 234567890);
+(11, 'John', 'Doe', '1980-03-15', 'johndoe@gmail.com', 4082275763),
+(12, 'Jane', 'Smith', '1992-07-24', 'janesmith@gmail.com', 6697864389);
 
 -- Dummy data for Banks
 INSERT INTO Banks (bank_id, bank_name) VALUES
@@ -73,3 +75,4 @@ INSERT INTO Notifications (notification_id, offer_id) VALUES
 INSERT INTO User_Notifications (notification_id, user_id) VALUES
 (101, 11),
 (102, 12); 
+*/
