@@ -2,16 +2,16 @@
 Use plutus;
 
 -- Data for Users
-insert into Users (first_name, last_name, date_of_birth, email, mobile) values ('Sophia', 'Brim', '2006-09-17', 'sbrim0@seesaa.net', '0921840551');
-insert into Users (first_name, last_name, date_of_birth, email, mobile) values ('Rab', 'Quillinane', '2002-09-13', 'rquillinane1@stumbleupon.com', '4923808373');
-insert into Users (first_name, last_name, date_of_birth, email, mobile) values ('Marna', 'Tabbitt', '1993-03-18', 'mtabbitt2@last.fm', '0079597092');
-insert into Users (first_name, last_name, date_of_birth, email, mobile) values ('Erma', 'Orrill', '1998-11-23', 'eorrill3@zimbio.com', '9826965456');
-insert into Users (first_name, last_name, date_of_birth, email, mobile) values ('Pate', 'Gumm', '2009-12-16', 'pgumm4@shinystat.com', '1735071277');
-insert into Users (first_name, last_name, date_of_birth, email, mobile) values ('Annamarie', 'Carlozzi', '2003-08-05', 'acarlozzi5@w3.org', '7501812713');
-insert into Users (first_name, last_name, date_of_birth, email, mobile) values ('Gabbi', 'Northall', '1997-02-09', 'gnorthall6@mashable.com', '5941695160');
-insert into Users (first_name, last_name, date_of_birth, email, mobile) values ('Rubie', 'Petrescu', '2006-01-16', 'rpetrescu7@sun.com', '2533721832');
-insert into Users (first_name, last_name, date_of_birth, email, mobile) values ('Daniela', 'Kelberer', '2009-07-21', 'dkelberer8@miibeian.gov.cn', '5792439052');
-insert into Users (first_name, last_name, date_of_birth, email, mobile) values ('Sascha', 'Ogden', '1992-07-11', 'sogden9@networksolutions.com', '7561963335');
+insert into Users (first_name, last_name, date_of_birth, email, mobile, password) values ('Sophia', 'Brim', '2006-09-17', 'sbrim0@seesaa.net', '0921840551', 'password');
+insert into Users (first_name, last_name, date_of_birth, email, mobile, password) values ('Rab', 'Quillinane', '2002-09-13', 'rquillinane1@stumbleupon.com', '4923808373', 'password123');
+insert into Users (first_name, last_name, date_of_birth, email, mobile, password) values ('Marna', 'Tabbitt', '1993-03-18', 'mtabbitt2@last.fm', '0079597092','password456');
+insert into Users (first_name, last_name, date_of_birth, email, mobile, password) values ('Erma', 'Orrill', '1998-11-23', 'eorrill3@zimbio.com', '9826965456','password789');
+insert into Users (first_name, last_name, date_of_birth, email, mobile, password) values ('Pate', 'Gumm', '2009-12-16', 'pgumm4@shinystat.com', '1735071277','password101');
+insert into Users (first_name, last_name, date_of_birth, email, mobile, password) values ('Annamarie', 'Carlozzi', '2003-08-05', 'acarlozzi5@w3.org', '7501812713','password102');
+insert into Users (first_name, last_name, date_of_birth, email, mobile, password) values ('Gabbi', 'Northall', '1997-02-09', 'gnorthall6@mashable.com', '5941695160','password103');
+insert into Users (first_name, last_name, date_of_birth, email, mobile, password) values ('Rubie', 'Petrescu', '2006-01-16', 'rpetrescu7@sun.com', '2533721832','password104');
+insert into Users (first_name, last_name, date_of_birth, email, mobile, password) values ('Daniela', 'Kelberer', '2009-07-21', 'dkelberer8@miibeian.gov.cn', '5792439052','password105');
+insert into Users (first_name, last_name, date_of_birth, email, mobile, password) values ('Sascha', 'Ogden', '1992-07-11', 'sogden9@networksolutions.com', '7561963335','password106');
 insert into Users (first_name, last_name, date_of_birth, email, mobile) values ('Lauree', 'Levings', '1990-01-17', 'llevingsa@latimes.com', '1788256522');
 insert into Users (first_name, last_name, date_of_birth, email, mobile) values ('Erminia', 'Blainey', '1992-10-02', 'eblaineyb@patch.com', '0575644141');
 insert into Users (first_name, last_name, date_of_birth, email, mobile) values ('Aggy', 'Daviddi', '2000-02-24', 'adaviddic@ftc.gov', '2836548886');
