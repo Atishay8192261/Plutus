@@ -3,3 +3,4 @@ target/
 *.class
 v1.iml
 node_modules/
+.DS_Store
