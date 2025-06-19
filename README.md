@@ -1,41 +1,58 @@
 # Plutus
 
-It is an application automate the process of identifying and notifying users about relevant cashback offers, integrated with their financial credentials. Application features a responsive, intuitive React-based interface for seamless user interaction. A robust backend utilizes Spring Boot for real-time data handling and notifications.
+Plutus is a credit/debit card rewards discovery platform that enables users to identify and maximize cashback and promotional offers linked to their specific cards. It features a responsive and intuitive interface built with React.js, backed by a robust Spring Boot API and a PostgreSQL database for real-time deal handling and secure credential management.
 
-## GitHub Structure
-This project is divided among 3 branches:  
-**Master Branch**: This branch contains following project files:
-1. Powerpoint presentation
-2. Video presentation
-3. Database schema file
-4. Database SQL file (plutus_db.sql)
-5. Database data file (plutus_data.sql)
-6. ReadMe file
+## Features
 
-**Backend-Development Branch**: This branch contains back-end part of application. It is developed in Java using SpringBoot.
-**Frontend-Development Branch**: This branch contains front-end part of application. It is developed in JavaScript using ReactJs.
+- 🧾 Discover real-time cashback, discount, and loyalty offers based on your linked card (Visa, Mastercard, etc.)
+- ⚙️ Backend architecture optimized using Spring Boot, with support for scalable API requests and efficient data access.
+- 🧠 Leveraged Aspect-Oriented Programming (AOP) to modularize logging, exception handling, and system-wide concerns.
+- 🚀 Fast MySQL/PostgreSQL queries with indexing and Redis-based caching for high-concurrency usage.
+- 🔐 Secured financial credentials and tokens with environment variable handling and OAuth2 practices.
+- 📦 CI pipeline built with Maven and GitHub Actions to ensure rapid build and deployment.
 
-## How to setup the application:
-Please follow the following steps in order:
-### Database setup:
-1. Download plutus_db.sql and plutus_data.sql file.
-2. Create a MYSQL Database instance. Remember the password you set up! You will need it later.
-3. Use the script plutus_db.sql to create database schema, and relations (tables)
-4. Use the script plutus_data.sql to have data inserted into the tables.
+## Project Structure
 
-### Backend setup:
-1. Clone `backend-development` branch of this repository.
-2. This applications is developed in Java 17 environment. Make sure your machine consists of JDK 17.
-3. Setup IDE (like IntelliJ) and open the current project in IDE.
-4. Install the Maven dependencies the way your IDE does it.
-5. Setup DB_PASSWORD environment variable with your specific database instance's (the one you set up on your machine with mySQL bench, mariadb or similar) password so that application can connect to database instance. Do so in your Run Configuration by adding an environment variable as so: </br>
-DB_PASSWORD=your_password </br>
-where "your_password" is the password that you set up for your mySQL instance when you downloaded it.
-6. Instatiate the Springboot application using the Run button on your IDE.
+The repository is organized into multiple branches:
 
-### Frontend setup:
-1. Clone `front-end` branch of this repository.
-2. Open command prompt to the folder that the repo is cloned in and type `npm install` to initiate the project
-3. Type `npm run` to start the application
+- **Main Branch:** Documentation artifacts such as:
+  - Project presentation
+  - Database schema and data scripts
+  - README
 
-Once both the frontend and backend are up running, navigate to localhost:3000 on your browser and interact with the application. Start by creating an account!
+- **Backend-Development Branch:**  
+  Java 17 backend code using Spring Boot framework.
+
+- **Frontend-Development Branch:**  
+  React.js frontend built with responsive components and intuitive UI patterns.
+
+## Setup Instructions
+
+### 1. Database Setup
+
+1. Download the `plutus_db.sql` and `plutus_data.sql` files.
+2. Create a MySQL database instance.
+3. Run `plutus_db.sql` to initialize the schema and tables.
+4. Run `plutus_data.sql` to insert sample data.
+
+### 2. Backend Setup
+
+1. Clone the `backend-development` branch.
+2. Ensure you have **JDK 17** and **Maven** installed.
+3. Import the project into your IDE (e.g., IntelliJ).
+4. Set the environment variable `DB_PASSWORD` to your MySQL instance password.
+5. Install Maven dependencies and run the Spring Boot application.
+
+### 3. Frontend Setup
+
+1. Clone the `frontend-development` branch.
+2. Open terminal inside the project folder.
+3. Run `npm install` to install dependencies.
+4. Start the development server with `npm run`.
+
+Once both servers are running, navigate to `http://localhost:3000` and sign up to explore personalized discounts and cashback opportunities.
+
+## License
+
+This project is released for personal use, research, and development. Commercial usage is not permitted without prior consent.
+
